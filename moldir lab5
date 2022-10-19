@@ -1,0 +1,8 @@
+list = []
+while True:
+    n = input('Бүтін санды енгізіңіз: ')
+    list += [n]
+    if n == 0:
+        break
+print(sorted(list, reverse=True))
+
